@@ -28,5 +28,8 @@ public class Ortalama {
         ort = toplam /6.0;
         System.out.println("Derslerin ortalaması :   "+ort);
 
+        String result = (ort>=60) ? "Sınıfı geçti" : "Sınıfta kaldı";
+        System.out.println(result);
+
     }
 }
