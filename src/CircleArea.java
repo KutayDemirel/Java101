@@ -7,6 +7,8 @@ public class CircleArea {
         int angle;
         Scanner input = new Scanner(System.in);
 
+        // Area and perimeter of Circleg
+
         System.out.print("Enter the radius of a circle   :");
         r = input.nextInt();
 
@@ -15,6 +17,8 @@ public class CircleArea {
 
         System.out.println("Area of the circle is " + area);
         System.out.println("Circumference of the circle is " + circ);
+
+        // Area of a Sector
 
         System.out.print("Enter the radius of a circle   :");
         r = input.nextInt();
