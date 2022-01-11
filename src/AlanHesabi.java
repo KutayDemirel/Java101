@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class AlanHesabı {
+public class AlanHesabi {
     public static void main(String[] args) {
         int a,b,c;
         double u;
