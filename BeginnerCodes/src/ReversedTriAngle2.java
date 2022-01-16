@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReversedTriangle2 {
+public class ReversedTriAngle2 {
     public static void main(String[] args) {
         int digit;
         Scanner input = new Scanner(System.in);
