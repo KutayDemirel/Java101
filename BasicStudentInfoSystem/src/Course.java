@@ -11,23 +11,25 @@ public class Course {
         this.code = code;
         this.prefix = prefix;
         this.note = 0;
-        this.verbal =0;
+        this.verbal = 0;
     }
-    void addTeacher (Teacher teacher){
-        if (this.prefix.equals(teacher.branch)){
+
+    void addTeacher(Teacher teacher) {
+        if (this.prefix.equals(teacher.branch)) {
             this.teacher = teacher;
             System.out.println("Teacher is designated");
-        }else
+        } else
             System.out.println("Teacher doesn't give this course");
     }
-    void printTeacher(){
+
+    void printTeacher() {
         System.out.println("Teacher's name  : " + this.teacher.name);
         System.out.println("Teacher gives \t: " + this.name);
     }
 
-    void printTeacherInfo(){
-        if(this.teacher != null)
-        this.teacher.print();
+    void printTeacherInfo() {
+        if (this.teacher != null)
+            this.teacher.print();
     }
 
 }

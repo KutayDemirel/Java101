@@ -18,13 +18,13 @@ public class Main {
         // bio.printTeacher();
 
         Student s1 = new Student("Richard", "123", "1", mat, phy, bio);
-        s1.addBulkExamNote(100, 80, 70,100,100,90);
+        s1.addBulkExamNote(100, 80, 70, 100, 100, 90);
         s1.isPass();
         Student s2 = new Student("Matthew", "124", "2", mat, phy, bio);
-        s2.addBulkExamNote(92, 0, 15,100,100,100);
+        s2.addBulkExamNote(92, 0, 15, 100, 100, 100);
         s2.isPass();
         Student s3 = new Student("Charles", "125", "4", mat, phy, bio);
-        s3.addBulkExamNote(45, 4, 15,12,65,78);
+        s3.addBulkExamNote(45, 4, 15, 12, 65, 78);
         s3.isPass();
 
     }
